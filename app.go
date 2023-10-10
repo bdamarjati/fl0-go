@@ -18,5 +18,5 @@ func main() {
 			"message": "hello world!",
 		})
 	})
-	r.Run("localhost:" + port)
+	r.Run(":" + port)
 }
